@@ -4,7 +4,7 @@ A modern and responsive frontend developer portfolio showcasing my projects, ski
 
 ## 🚀 Live Website
 
-Coming Soon
+https://abei-dev.github.io/portfolio/
 
 ## 📸 Preview
 
