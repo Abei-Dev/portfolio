@@ -10,7 +10,10 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 90px;
+}
+
+section {
+    scroll-margin-top: 90px;
 }
 
 body {
@@ -560,6 +563,19 @@ section > h2::after {
         grid-column: 1 / -1;
     }
 } 
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+}
 
 
 /* =========================

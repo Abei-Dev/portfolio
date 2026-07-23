@@ -6,7 +6,7 @@ window.addEventListener("scroll", updateActiveLink)
 updateActiveLink()
 
 function updateActiveLink() {
-    let currentSection = ""
+    let currentSection = "hero"
 
     const pageBottom =
         window.innerHeight + window.scrollY >=
